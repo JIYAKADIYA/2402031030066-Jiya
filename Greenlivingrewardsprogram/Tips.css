@@ -1,0 +1,29 @@
+.tips-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    margin: 15px auto;
+    width: 80%;
+}
+
+.section-title{
+    background: rgb(216, 216, 0.20);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+
+.tip-box {
+    background:rgba(237, 237, 150, 0.3);
+    padding: 50px;
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+.tip-box {
+    text-align: start;
+}
+.tip-box h3 {
+    text-decoration: underline;
+    height: 40%;
+    
+}

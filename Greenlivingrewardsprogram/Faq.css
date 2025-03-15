@@ -1,0 +1,18 @@
+.faq-container {
+    width: 85%;
+    margin: 22px auto;
+}
+
+.faq-box {
+    background: rgba(255, 255, 255, 0.6);
+    padding: 18px;
+    margin: 15px 0;
+    text-align: left;
+}
+
+.faq-box p{
+    font-weight:normal;
+    margin: 5px 0;
+    font-size: larger;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}

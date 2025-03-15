@@ -1,0 +1,39 @@
+.about-container{
+    display: flex;
+    justify-content:space-between;
+    align-items: flex-start;
+    gap: 50px;
+    max-width: 90%;
+    margin: auto;
+    padding: 35px;
+    text-align:start;
+}
+.about-content{
+    text-align: left;
+    max-width: 50%;
+    padding: 20px;
+    font-size: 21px;
+    max-height: 40%;
+}
+
+.about-content h1,h2{
+    color: black;
+    text-align: center;
+    padding: 13px;
+}
+
+.info-graphic{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 45%;
+}
+.info-graphic img{
+    width: auto;
+    height: 400%;
+    max-height: 500px;
+    object-fit: contain;
+    margin:69px;
+
+}

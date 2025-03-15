@@ -1,0 +1,82 @@
+.How-it-Works {
+    text-align: center;
+    padding: 20px;
+}
+
+.How-it-Works h2 {
+    font-style: italic;
+    padding: 20px;
+    border-radius: 10px;
+
+}
+
+How-it-Works h3{
+    border-radius: 10px;
+}
+
+.How-it-Works p{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 29px;
+}
+
+.step-container {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.step {
+    padding: 15px;
+    border-radius: 10px;
+    width: 50%;
+}
+
+.step h3{
+    background: rgba(255,255,255,0.3);
+    border-radius: 10px;
+    height: 15%;
+    font-size: x-large;
+}
+
+.step img {
+    width: 130px;
+    height: auto;
+    gap: 100px;
+}
+
+.steps {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.step-box {
+    width: 50%;
+    padding: 15px;
+    text-align: center;
+    margin: 10px;
+}
+
+.step-box p{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.step-box h4 {
+    border-radius: 10px;
+    border-width: 50px;
+}
+
+.step-box img{
+    width: 130px;
+    height: auto;
+}
+
+.border {
+    padding: 5px;
+    display: flex;
+    background: rgb(115, 235, 89);
+    gap: 32%;
+    width: 104%;
+
+}
+

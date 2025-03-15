@@ -1,0 +1,108 @@
+.reward-section {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 20px;
+    text-align: center;
+}
+
+.reward-info{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+.reward-info img {
+    width: 300px;
+    height: auto;
+}
+
+.welcome-text {
+    font-size: 19px;
+    font-weight: bold;
+}
+
+.stars {
+    color: gold;
+    font-size: 22px;
+}
+
+.progress-container{
+    text-align:center;
+    margin: 20px 0;
+    
+}
+
+.progress-container p{
+    margin: 10px 0;
+    font-size: 20px;
+}
+
+
+.progress-bar {
+    width: 80%;
+    max-width: 500px;
+    background: #ddd;
+    height: 15px;
+    border-radius: 5px;
+    margin: 10px auto;
+    overflow: hidden;
+}
+
+.progress {
+    height: 100%;
+    background: gold;
+    width: 6%;
+}
+
+
+.balance-info {
+    display: flex;
+    justify-content: space-between;
+    font-size: 18px;
+    margin: 20px 0;
+    padding: 10px;
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    max-width: 500px;
+
+}
+
+.rewards {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.reward-item {
+    text-align: center;
+    background: rgba(255, 255, 255, 0.8);
+    padding: 15px;
+    border-radius: 10px;
+    width: 200px;
+}
+
+.reward-item img {
+    width: 100%;
+    border-radius: 10px; 
+}
+
+.reward-item button {
+    background: green;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    margin-top: 10px;
+    cursor: pointer;
+    width: 100%;
+}
+
+.reward-item button:hover {
+    background: darkgreen;
+}
+
+

@@ -1,0 +1,94 @@
+<html>
+    <head>
+        <title>Student Registration Form</title>
+        
+        <style>
+            form {
+                width: 400px; /* Set the width */
+                height: 600px; /* Set the height */
+                margin: auto; /* Center the form */
+                padding: 20px;
+                border: 2px black;
+                background-color: white;
+            }
+    
+            table {
+                width: 100%; /* Make the table fit the form */
+            }
+    
+            td {
+                padding: 10px;
+            }
+
+            input[type="submit"]:hover {
+                background-color:indianred;
+            }
+
+            input[type="reset"]:hover {
+                background-color:indianred;
+            }
+
+        </style>
+    </head>
+    
+    <doby>
+        <form>
+            <table border="2">
+               
+                 <tr>
+                    <td> Name</td>
+                    <td><input type="text"></td>
+                </tr>
+
+                <tr>
+                    <td> Address </td>
+                    <td><input type="text"></td>
+                </tr>
+
+                <tr>
+                    <td> Email </td>
+                    <td><input type="email"></td>
+                </tr>
+
+                <tr>
+                    <td> Birthdate </td>
+                    <td><input type="date"></td>
+                </tr>
+
+                <tr>
+                    <td> Password </td>
+                    <td><input type="password"></td>
+                </tr>
+
+                <tr> 
+                    <td> Marksheet </td>
+                    <td><input type="file"></td>
+                </tr>
+
+                <tr>
+                    <td> Class </td>
+                    <td><input type="radio" name="abc">IT-A  
+                        <input type="radio" name="abc">TI-B 
+                        <input type="radio" name="abc">IT-C
+                    </td>
+                </tr>
+
+                <tr>
+                    <td> Hobby </td>
+                    <td>
+                        <input type="checkbox">Dance
+                        <input type="checkbox">Eating
+                        <input type="checkbox">Traveling
+                </tr>
+
+                <tr> 
+                    <td colspan="2">
+                        <input type="reset" value="Clear">
+                        <input type="submit">
+                    </td>
+                </tr>
+            
+        </table>
+        </form>
+    </doby>
+</html>
